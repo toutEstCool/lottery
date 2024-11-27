@@ -3,7 +3,6 @@
 import { Button } from "@/shared/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "@/shared/ui/sheet";
 import { Menu } from "lucide-react";
-import Image from "next/image";
 import { ReactNode } from "react";
 
 interface HeaderLayoutProps {
@@ -14,7 +13,7 @@ interface HeaderLayoutProps {
 }
 
 export function Layout(props: HeaderLayoutProps) {
-  const {logo = 'https://i.pinimg.com/736x/18/53/17/18531772d5c38258260b74b1804d7050.jpg'} = props
+  // const {logo = 'https://i.pinimg.com/736x/18/53/17/18531772d5c38258260b74b1804d7050.jpg'} = props
 
 
   return (
