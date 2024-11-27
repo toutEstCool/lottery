@@ -14,6 +14,7 @@ interface HeaderLayoutProps {
 
 export function Layout(props: HeaderLayoutProps) {
   // const {logo = 'https://i.pinimg.com/736x/18/53/17/18531772d5c38258260b74b1804d7050.jpg'} = props
+  const { } = props
 
 
   return (
